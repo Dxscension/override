@@ -104,13 +104,12 @@ s = [[
 
 s = s:gsub('REPLACEMEFUNETHING',funething)
 
+--Lazy string finder (this could've been done way easier, but i gotta get the lines, lmao)
 
 local tokenizing = false
 local token = ""
 local new = ""
 local tokens = 0
-
-
 
 for i=1,#s do
 	local shouldContinue = false
@@ -127,6 +126,7 @@ for i=1,#s do
       if tokenizing then token = token .. i else new = new..i end
     end
 end
+
 
 new = new:gsub('REPLACEMEPLSPLSPLS',bytecode)
 new = new:gsub('REPLACEMEHEX',string.format("%x",xor))
