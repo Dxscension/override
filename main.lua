@@ -30,5 +30,5 @@ otherfile:close()
 
 print("Starting obfuscation...")
 
-dofile("obfuscation/converter.lua")
+dofile("obfuscation/generator.lua")
 
