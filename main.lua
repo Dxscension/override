@@ -10,7 +10,7 @@ Minifier: stravant (https://github.com/stravant/lua-minify)
 
 print("Minifying script...")
 
-os.execute("lua minifier/minify.lua minify input.lua > minifier/output.lua")
+os.execute("node minifier/minify.js")
 
 print("Minified!")
 
@@ -31,4 +31,3 @@ otherfile:close()
 print("Starting obfuscation...")
 
 dofile("obfuscation/generator.lua")
-

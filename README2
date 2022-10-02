@@ -1,0 +1,10 @@
+don't bully for bad codin practice lol
+
+
+if u actually want to run this (obfuscate large scripts)
+find a working Lua 5.1 executable (for windows)
+
+if u dont want the script to be terrible change it to run a
+luac.exe compiler, not string.dump
+I did that for laziness and because I couldn't find, well a luac 5.1 executable.
+(no, luajit does not count)
