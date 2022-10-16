@@ -2,6 +2,6 @@
 ## Lua Bytecode Obfuscator
 
 # TO DO
-##  - Convert discord.js from v13 to v14.
-##  - Fake opcodes
-##  - Hide bytecode better
+* ` Convert discord.js to v14 (currently v13)`
+* ` Better bytecode hiding`
+* ` Fake opcodes`                                             
